@@ -1,21 +1,24 @@
 galaxy_info:
+  role_name: picturae_shorewall
   author: Riccardo Casazza, Farhad Shahbazi
   description: Install and configure shorewall
   company: Fraguglia Punto IT
   license: MIT
   min_ansible_version: 2.0
   platforms:
-  - name: Ubuntu
-    versions:
-    - all
-  - name: Debian
-    versions:
-    - jessie
-    - sid
-    - squeeze
-    - stretch
-    - wheezy
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - bullseye
+        - buster
+        - jessie
+        - sid
+        - squeeze
+        - stretch
+        - wheezy
   galaxy_tags:
-  - firewall
-  - security
+    - firewall
+    - security
 dependencies: []
